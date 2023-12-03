@@ -14,7 +14,8 @@ button {
 }
 button:hover {
   border: #2d669e solid 2px;
-  background-color: #2a4f74;
+  color: white;
+  background-color: #214b74;
   transition: all ease-in-out 300ms;
 }
 p {
