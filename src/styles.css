@@ -1,0 +1,41 @@
+body {
+  margin: 100px auto;
+  width: 500px;
+  background-color: #2d669e;
+}
+button {
+  background-color: white;
+  display: block;
+  margin: 50px auto;
+  width: 400px;
+  padding: 10px;
+  border: white solid 2px;
+  border-radius: 30px;
+}
+button:hover {
+  border: #2d669e solid 2px;
+  background-color: #2a4f74;
+  transition: all ease-in-out 300ms;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #214b74;
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  padding: 5px;
+  border: white solid 2px;
+  border-radius: 30px;
+}
+#client-lsp {
+  width: 40px;
+  border-radius: 100%;
+}
+#sih-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 100%;
+}

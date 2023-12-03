@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "./styles.css";
+import lsp from "./lsp.jpg";
+import logo from "./logo_final.png";
+import client from "./client.jpg";
+import login from "./login.jpg";
+import emblem from "./emblem.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} alt="Logo" id="sih-logo" />
+      <br />
+      <p id="login">
+        <img src={login} alt="login" id="client-lsp"></img> LOGIN
+      </p>
+      <button type="button">
+        <img id="client-lsp" src={lsp} alt="LSP" /> LSP
+      </button>
+      <button type="button">
+        <img id="client-lsp" src={client} alt="CLIENT" /> CLIENT
+      </button>
+      <img src={emblem} id="sih-logo" alt="National Emblem" />
     </div>
   );
 }
